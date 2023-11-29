@@ -1,0 +1,58 @@
+.top-text{
+  text-align : center;
+}
+
+.top{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button{
+  margin : 4px;
+  padding : 8px 18px;
+  width: 47px;
+  border-radius : 16px;
+  border : 1px solid black;
+  text-align : center;
+}
+
+.text-box{
+  margin : 4px 0;
+  margin-bottom : 8px;
+}
+
+input{
+  padding : 8px;
+  margin : 2px;
+  font-size: 18px;
+  border-radius : 8px;
+  border : 1px solid black;
+}
+
+.button:hover{
+  background : #fc3a52;
+  color : white;
+}
+
+.box{
+  margin-top: 20vh;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 4px;
+  background: blue;
+}
+
+body {
+    background-image: url('https://images.unsplash.com/photo-1519681393784-d120267933ba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1124&q=100');
+    background-position: center;
+}
+
+.box {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
